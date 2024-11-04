@@ -30,7 +30,7 @@
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item">
-          <h4 class="nav-link">Nuevo cliente</h4>
+          <h4 class="nav-link">Nuevo proveedor</h4>
         </li>
       </ul>
 
@@ -93,11 +93,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
       <a href="panel.html" class="brand-link d-flex align-items-center">
-        <img src="img/logo_blanco.svg" alt="Bubblify Logo" style="opacity: .8;" height="60">
-        <div class="d-flex flex-column ml-2">
-          <span class="brand-text titulo">BUBBLIFY</span>
-          <span class="brand-text subtitulo">SOFTWARE DE GESTIÓN ONLINE</span>
-        </div>
+        <img src="img/logo.png" alt="Bubblify Logo" style="opacity: .8;" width="100%">
       </a>
 
       <div class="sidebar ">
@@ -106,7 +102,7 @@
             <img src="img/user-circle.svg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Lucía Pigliacampi</a>
+            <a href="#" class="d-block">Juan Pérez</a>
           </div>
         </div>
 
@@ -122,7 +118,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="clientes.html" class="nav-link">
+              <a href="" class="nav-link">
                 <i class="nav-icon fas fa-users"></i>
                 <p>
                   Clientes
@@ -131,16 +127,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="productos.html" class="nav-link">
-                <i class="nav-icon fas fa-boxes"></i>
-                <p>
-                  Productos
-                </p>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="pedidos.html" class="nav-link">
+              <a href="" class="nav-link">
                 <i class="nav-icon fas fa-shopping-cart"></i>
                 <p>
                   Pedidos
@@ -149,16 +136,28 @@
             </li>
 
             <li class="nav-item">
-              <a href="recorridos.html" class="nav-link">
-                <i class="nav-icon fas fa-truck"></i>
+              <a href="" class="nav-link">
+                <i class="nav-icon fas fa-boxes"></i>
                 <p>
-                  Recorridos
+                  Productos
                 </p>
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="login.html" class="nav-link">
+              <a href="" class="nav-link">
+                <i class="nav-icon fas fa-briefcase"></i>
+                <p>
+                  Proveedores
+                </p>
+              </a>
+            </li>
+
+           
+
+
+            <li class="nav-item">
+              <a href="" class="nav-link">
                 <i class="nav-icon fas fa-sign-out-alt"></i>
                 <p>
                   Cerrar sesión
@@ -183,8 +182,8 @@
           <div class="col-sm-12">
             <ol class="breadcrumb float-sm-left">
               <li class="breadcrumb-item"><a href="panel.html">Home</a></li>
-              <li class="breadcrumb-item"><a href="clientes.html">Clientes</a></li>
-              <li class="breadcrumb-item active">Nuevo cliente</li>
+              <li class="breadcrumb-item"><a href="">Proveedores</a></li>
+              <li class="breadcrumb-item active">Nuevo proveedor</li>
             </ol>
           </div>
         </div>
@@ -204,12 +203,12 @@
                     <div class="col-12">
                       <label for="datosContacto">Datos proveedor</label>
                     </div>
-                    <div class="col-12 mb-3">
-                      <input type="text" class="form-control" id="codigoProveedor" placeholder="Código de proveedor"
+                    <div class="col-3 mb-3">
+                      <input type="number" class="form-control" id="codigoProveedor" placeholder="Código de proveedor"
                         name="codigoProveedor">
                     </div>
 
-                    <div class="col-12 mb-3">
+                    <div class="col-9 mb-3">
                       <input type="text" class="form-control" id="razonSocial" placeholder="Razón social"
                         name="razonSocial">
                     </div>
@@ -218,64 +217,39 @@
                         placeholder="Nombre y apellido de contacto">
                     </div>
 
-                    <div class="col-6 col-sm-4 col-md-3">
+                    <div class="col-3 col-md-3">
                       <input type="number" class="form-control" id="numeroCuit" name="numeroCuit"
                         placeholder="Número de CUIT">
                     </div>
 
-                  </div>
-
-                  <!-- <div class="form-group row">
-                    <div class="col-12">
-                      <label for="telefono">Datos de contacto</label>
-                    </div>
-                    
-                   
-                  </div> -->
-
-                  <div class="form-group row">
-                    <!-- <div class="col-12">
-                      <label for="direccion">Dirección</label>
-                    </div> -->
-                    <div class="col-9 col-md-6 col-lg-8 mb-3">
+                    <div class="col-9 mb-3">
                       <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección">
                     </div>
-                    <div class="col-5">
+                    <div class="col-3">
                       <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono">
                     </div>
-                    <div class="col-7">
+                    <div class="col-9 mb-3">
                       <input type="text" class="form-control" placeholder="Correo electrónico" id="email" name="email">
                     </div>
-                    <!-- <div class="col-3 col-md-2 col-lg-2">
-                      <input type="number" class="form-control" id="numeroDir" name="numeroDir" placeholder="Número">
-                    </div>
-                    <div class="col-2 col-md-2 col-lg-1 mb-3">
-                      <input type="text" class="form-control" id="piso" name="piso" placeholder="Piso">
-                    </div>
-                    <div class="col-2 col-md-2 col-lg-1">
-                      <input type="text" class="form-control" id="departamento" name="departamento" placeholder="Dpto">
-                    </div> -->
 
-                    <div class="col-8 col-md-7 mb-3">
+
+                    <div class="col-9 mb-3">
                       <select class="form-control" id="localidad" name="localidad">
-                        <option value="">Localidad</option>
-                        <option value="">Villa María</option>
-                        <option value="">Villa Nueva</option>
-                        <option value="">Córdoba</option>
-                        <option value="">Buenos Aires</option>
+                        <option value="Localidad">Localidad</option>
+                        <option value="Villa María">Villa María</option>
+                        <option value="Villa Nueva">Villa Nueva</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Buenos Aires">Buenos Aires</option>
                       </select>
                     </div>
-                  </div>
 
-                  <div class="form-group row">
-                    <div class="col-6"></div>
-                    <div class="col-1">
-                      <button id="botonAceptar" type="button" class="btn btn-primary float-right">Aceptar</button>
-                      <button id="botonCancelar" type="button" class="btn btn-primary float-right">Cancelar</button>
+
+                    <div class="col-3">
+                      <button id="botonAceptar" type="button" class="btn btn-secondary ml-2">Aceptar</button>
+
+                      <button id="botonCancelar" type="button" class="btn btn-light ">Cancelar</button>
                     </div>
-
                   </div>
-
                 </div>
               </form>
             </div>

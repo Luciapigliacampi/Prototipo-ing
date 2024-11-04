@@ -33,26 +33,18 @@
 <body class="hold-transition sidebar-mini layout-fixed">
   <div class="wrapper">
 
-    <!-- Preloader -->
-    <div class="preloader flex-column justify-content-center align-items-center">
-      <img class="animation__shake" src="img\logo_sin_fondo.svg" alt="AdminLTELogo" height="100">
-    </div>
 
-    <!-- Navbar -->
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-      <!-- Left navbar links -->
       <ul class="navbar-nav d-flex align-items-center">
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item">
-          <h4 class="nav-link">Home</h4>
+          <h4 class="nav-link">Nuevo proveedor</h4>
         </li>
       </ul>
 
-      <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
-        <!-- Navbar Search -->
         <li class="nav-item">
           <a class="nav-link" data-widget="navbar-search" href="#" role="button">
             <i class="fas fa-search"></i>
@@ -74,7 +66,6 @@
           </div>
         </li>
 
-        <!-- Notifications Dropdown Menu -->
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-bell"></i>
@@ -108,91 +99,54 @@
         </li>
       </ul>
     </nav>
-    <!-- /.navbar -->
 
-    <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
-      <!-- Brand Logo -->
 
       <a href="panel.html" class="brand-link d-flex align-items-center">
-        <img src="img/logo_blanco.svg" alt="Bubblify Logo" style="opacity: .8;" height="60">
-        <div class="d-flex flex-column ml-2">
-          <span class="brand-text titulo">BUBBLIFY</span>
-          <span class="brand-text subtitulo">SOFTWARE DE GESTIÓN ONLINE</span>
-        </div>
+        <img src="img/logo.png" alt="Bubblify Logo" style="opacity: .8;" width="100%">
       </a>
 
-      <!-- Sidebar -->
       <div class="sidebar ">
-        <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image">
             <img src="img/user-circle.svg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Lucía Pigliacampi</a>
+            <a href="#" class="d-block">Juan Pérez</a>
           </div>
         </div>
 
-        <!-- SidebarSearch Form -->
-        <!-- <div class="form-inline">
-        <div class="input-group" data-widget="sidebar-search">
-          <input class="form-control form-control-sidebar" type="search" placeholder="Buscar" aria-label="Search">
-          <div class="input-group-append">
-            <button class="btn btn-sidebar">
-              <i class="fas fa-search fa-fw"></i>
-            </button>
-          </div>
-        </div>
-      </div> -->
-
-        <!-- Sidebar Menu -->
         <nav class="mt-2">
           <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-            <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
             <li class="nav-item">
               <a href="panel.html" class="nav-link">
                 <i class="nav-icon fas fa-th"></i>
                 <p>
                   Inicio
-                  <!-- <span class="right badge badge-danger">New</span> -->
                 </p>
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="clientes.html" class="nav-link">
+              <a href="" class="nav-link">
                 <i class="nav-icon fas fa-users"></i>
                 <p>
                   Clientes
-                  <!-- <i class="fas fa-angle-left right"></i> -->
                 </p>
               </a>
-              <!-- <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Simple Tables</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>DataTables</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/tables/jsgrid.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>jsGrid</p>
-                </a>
-              </li>
-            </ul> -->
             </li>
 
             <li class="nav-item">
-              <a href="productos.html" class="nav-link">
+              <a href="" class="nav-link">
+                <i class="nav-icon fas fa-shopping-cart"></i>
+                <p>
+                  Pedidos
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="" class="nav-link">
                 <i class="nav-icon fas fa-boxes"></i>
                 <p>
                   Productos
@@ -201,16 +155,19 @@
             </li>
 
             <li class="nav-item">
-              <a href="pedidos.html" class="nav-link">
-                <i class="nav-icon fas fa-shopping-cart"></i>
+              <a href="" class="nav-link">
+                <i class="nav-icon fas fa-briefcase"></i>
                 <p>
-                  Pedidos
+                  Proveedores
                 </p>
               </a>
             </li>
 
-            <li class="nav-item fixed-bottom">
-              <a href="login.html" class="nav-link">
+           
+
+
+            <li class="nav-item">
+              <a href="" class="nav-link">
                 <i class="nav-icon fas fa-sign-out-alt"></i>
                 <p>
                   Cerrar sesión
@@ -218,32 +175,14 @@
               </a>
             </li>
 
-
           </ul>
         </nav>
-        <!-- <div class="nav-item fixed-bottom">
-        <a href="login.html" class="logout nav-link">
-          <i class="nav-icon fas fa-sign-out-alt"></i>
-          <p>Cerrar sesión</p>
-         </a>
-      </div> -->
-
-        <!-- /.sidebar-menu -->
       </div>
-      <!-- /.sidebar -->
 
     </aside>
 
-    <!-- Content Wrapper. Contains page content
-   -->
-    <!-- /.content-wrapper -->
-
-
-    <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
-      <!-- Control sidebar content goes here -->
     </aside>
-    <!-- /.control-sidebar -->
   </div>
   <!-- ./wrapper -->
 
@@ -278,7 +217,7 @@
             </div>
           </a>
 
-          <a href="nuevo_cliente.html" class="card-panel btn col-lg-3 col-6 col-md-3 col-xl-3 col-xxl-1 shadow-div">
+          <a href="nuevo_proveedor.html" class="card-panel btn col-lg-3 col-6 col-md-3 col-xl-3 col-xxl-1 shadow-div">
             <!-- small box -->
             <div class=" rounded small-box-panel">
               <div class="inner">

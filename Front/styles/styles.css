@@ -1,6 +1,6 @@
 .login-box .btn,
 .register-box .btn {
-background-color: #1952A0;
+background-color: #E40E20;
 color: #FFFFFF;
 }
 
@@ -25,11 +25,11 @@ color: #FFFFFF;
 }
 
 .main-sidebar {
-  background-color: #1952A0;
+  background-color: #E40E20;
 }
 
 .main-sidebar .brand-link, .sidebar .user-panel {
-  border-color: #435dcf;
+  border-color: #E40E20;
 }
 
 .main-sidebar .sidebar .d-block, .nav-sidebar .nav-item .nav-link, .main-sidebar .sidebar .logout{
@@ -78,8 +78,8 @@ color: #FFFFFF;
 
 .btn-primary-pedido {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #E40E20;
+  border-color: #E40E20;
   box-shadow: none;
   display: inline-block;
   font-weight: 400;
@@ -94,8 +94,8 @@ color: #FFFFFF;
 
 .btn-primary-pedido:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #E40E20;
+  border-color: #E40E20;
 }
 
 
@@ -111,7 +111,7 @@ color: #FFFFFF;
   align-items: center; /* Centrar el ícono verticalmente */
   justify-content: center; /* Centrar el ícono horizontalmente */
   padding-bottom: 10px;
-  color: #1952A0;
+  color: #E40E20;
 }
 
 .small-box-panel .inner {
@@ -125,7 +125,7 @@ color: #FFFFFF;
 .small-box-panel h3 {
   margin-bottom: 10; /* Eliminar el margen inferior para asegurar que el contenido esté alineado */
 padding-top: 10px;
-color: #1952A0;
+color: #E40E20;
 opacity: 0.8;
 }
 
